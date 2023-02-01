@@ -1,0 +1,23 @@
+{
+  "name": "readmegenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gj3chavez/ReadmeGenerator.git"
+  },
+  "keywords": [],
+  "author": "Giuliana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gj3chavez/ReadmeGenerator/issues"
+  },
+  "homepage": "https://github.com/gj3chavez/ReadmeGenerator#readme",
+  "dependencies": {
+    "badmath": "^1.0.1"
+  }
+}
