@@ -20,7 +20,6 @@
 
   
   ## Installation
-      [Back to Table of Contents]
      Follow the steps below:
      1: Create a repo
      2: Open terminal
@@ -35,7 +34,7 @@
     
 
   ## Usage
-    
+     The application will be invoked with the following command in the integrated terminal: node index.js
   
   ## Contributing/Report issues
      If you would like to contribute to this project or report an issue please email me at: asdfg@gmail.com
