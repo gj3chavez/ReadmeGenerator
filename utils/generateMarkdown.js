@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  if (license !== 'No license') {
+    function renderLicenseBadge(license) {
+      if (license !== 'No license') {
     switch (license) {
       case 'GNU GPLv3':
         licenseBadge = `[![License](https://img.shields.io/badge/License-GNU%20GPLv3-yellow)]`;
@@ -49,7 +49,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== 'No license') {
-    return `My readme generator is covered under: ${renderLicenseBadge(license)} ${renderLicenseLink}(license)`;
+    return `My Readme generator is covered under: ${renderLicenseBadge(license)} ${renderLicenseLink}(license)`;
   } else {
     return ' ';
   }
@@ -64,22 +64,19 @@ function generateMarkdown(data) {
   ${data.description}
 
 ## Table of Contents
-  - [Description]
-  - [Installation]
-  - [Usage]
-  - [License]
-  - [Contributing]
-  - [Tests]
-  - [Questions]
+  - [Description](#Description)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [License](#License)
+  - [Contributing](#Contributing)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
 
   ## Installation
     ${data.installation}
 
   ## Usage
     ${data.usage}
-
-  ## License
-    ${renderLicenseSection(data.license)}
   
   ## Contributing
     ${data.contributing}
@@ -87,7 +84,13 @@ function generateMarkdown(data) {
   ## Tests
     ${data.tests}
 
+   ## License
+    ${renderLicenseSection(data.license)}
+
   ## Questions`;
 }
 
 module.exports = generateMarkdown;
+
+
+
