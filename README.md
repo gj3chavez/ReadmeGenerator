@@ -51,8 +51,9 @@ Test the app by opening up the terminal in VS Code you can run node index.js and
 
 
 ## Questions
-     For questions please reach me at: skjgajsg@gmail.com
-     My Github: [Github](https://github.com/gsfgdhgkj)
+For questions please reach me at: skjgajsg@gmail.com
+
+My Github: [Github](https://github.com/gsfgdhgkj)
 
 
 ## License
