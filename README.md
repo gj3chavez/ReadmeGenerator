@@ -1,5 +1,7 @@
 # Professional README Generator
-![License](https://img.shields.io/badge/License%20-MIT-orange)
+![License](https://img.shields.io/badge/License%20-MIT-orange) <br/>
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)  ![Noje.js](https://img.shields.io/badge/-node.js-brightgreen)  ![Screencastify](https://img.shields.io/badge/-Screencastify-red)  
 
 
 ## Description
@@ -51,9 +53,8 @@ Test the app by opening up the terminal in VS Code you can run node index.js and
 
 
 ## Questions
-For questions please reach me at: skjgajsg@gmail.com
-
-My Github: [Github](https://github.com/gsfgdhgkj)
+For questions please reach me at: skjgajsg@gmail.com <br/>
+My Github: [Giuliana](https://github.com/gsfgdhgkj)
 
 
 ## License
