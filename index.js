@@ -8,7 +8,7 @@ const Project = require('./utils/generateMarkdown.js')
 const questions = [{
     type: 'confirm',
     name: 'WELCOME!',
-    message: 'Welcome to my Readme Generator!'
+    message: 'Welcome to my Readme Generator! Would you like to begin?'
 },
 {
     type: 'input',
@@ -28,7 +28,7 @@ const questions = [{
 {
     type: 'input',
     name: 'usage',
-    message: 'how do you use the app?'
+    message: 'How do you use the app?'
 },
 {
     type: 'input',
@@ -38,38 +38,47 @@ const questions = [{
 {
     type: 'input',
     name: 'test',
-    message: 'instructions to be follow:'
+    message: 'Instructions to be follow:'
 },
 {
-    type: 'input',
+    type: 'list',
     name: 'license',
     message: 'What license did you use? ',
-    choices: ['GNU GPLv3','MIT','Apache 2.0','N/A']
+    choices: [
+        "GNU GPLv3",
+        "MIT",
+        "Apache 2.0",
+        "N/A"
+    ]
 },
 {
     type: 'input',
     name: 'username',
     message: 'Please enter your Github username: '
 }, 
+{
+    type: 'input',
+    name: 'email',
+    message: 'Please enter your email: '
+}, 
     
 ];
-
 
 // TODO: Create a function to write README file 
 function writeToFile(fileName,data) {
     fs.writeToFile(fileName, data, (err)=>
-    err ? console.error(err) : console.log ('I think I did it?'))
+    err ? console.error(err) : console.log ('Awesome! You have generated a Readme file!'))
 }
-// TODO: Create a function to initialize app 
+// // TODO: Create a function to initialize app 
 function init (){
     inquirer.prompt(questions)
     .then((answers) => {
-        // const readmeContent = Project(answers);
-        console.log(answers);
-        fs.writeToFile('log.text' , JSON.stringify(answers),function(err){
-            return err ? console.err(err): console.log('akdsjf')
-        });
-        console.log('ahsdhf');
-})}
+        const readmeContent = Project(answers);
+      
+        writeToFile('./')
+      
+         });
+}; 
+
 // Function call to initialize app
 init();

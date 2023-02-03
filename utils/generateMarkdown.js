@@ -87,7 +87,7 @@ ${data.tests}
 ## License
 ${renderLicenseSection(data.license)}
 
-  ## Questions`;
+## Questions`;
 }
 
 module.exports = generateMarkdown;
