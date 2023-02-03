@@ -63,13 +63,13 @@ function writeToFile(fileName,data) {
 // TODO: Create a function to initialize app 
 function init (){
     inquirer.prompt(questions)
-    .then(answers) => {
+    .then((answers) => {
         // const readmeContent = Project(answers);
         console.log(answers);
         fs.writeToFile('log.text' , JSON.stringify(answers),function(err){
             return err ? console.err(err): console.log('akdsjf')
         });
         console.log('ahsdhf');
-}}
+})}
 // Function call to initialize app
 init();

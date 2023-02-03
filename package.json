@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/gj3chavez/ReadmeGenerator#readme",
   "dependencies": {
-    "badmath": "^1.0.1"
+    "badmath": "^1.0.1",
+    "inquirer": "^8.2.4"
   }
 }

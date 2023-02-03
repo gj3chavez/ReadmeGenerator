@@ -24,7 +24,9 @@
      1: Create a repo
      2: Open terminal
      3: Clone rep from Github
-     4: Create a "gitignore" file nd include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked        
+     4: Create a "gitignore" file and             include                   
+        node_modules/ and .DS_Store/ so that your 
+     node_modules directory isn't tracked        
         or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
      5: Create a folder: index.js
      6: Initiate npm by entering: npm init
@@ -33,23 +35,23 @@
      9: Follow prompts
     
 
-  ## Usage
+## Usage
      The application will be invoked with the following command in the integrated terminal: node index.js
   
-  ## Contributing/Report issues
+## Contributing/Report issues
      If you would like to contribute to this project or report an issue please email me at: asdfg@gmail.com
    
 
-  ## Test
+## Test
      Test the app by opening up the terminal in VS Code you can run node index.js and answer the prompts.
 
 
-  ## Questions
+## Questions
      For questions please reach me at: skjgajsg@gmail.com
      My Github: [Github](https://github.com/gsfgdhgkj)
 
 
-  ## License
+## License
   ![License](https://img.shields.io/badge/License%20-MIT-orange)
   
   Copyright (c) 2023 gj3chavez
