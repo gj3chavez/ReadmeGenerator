@@ -48,7 +48,7 @@
 
 ## Questions
      For questions please reach me at: skjgajsg@gmail.com
-     <FontAwesomeIcon icon="fa-brands fa-square-github" />My Github: [Github](https://github.com/gsfgdhgkj)
+    My Github: [Github](https://github.com/gsfgdhgkj)
 
 
 ## License
