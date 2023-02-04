@@ -5,10 +5,12 @@
 
 
 ## Description
-   As a developer, you want a Readme generator which quickly enables you to create a professional Readme for a new project.  
-   This project is base in a node.js application that accepts user input from inquirer. 
-   The app starts with a welcome message. Then the user is presented with a set of questions and choices that requieres their input. 
+   As a developer, I want a Readme generator which quickly enables you to create a professional Readme for a new project.  
+   This project is based in a node.js application that accepts user input from inquirer. 
+   The app starts with a welcome message. Then the user is presented with a set of questions and choices that requiere their input. 
    After choosing a license, the respective license badge will be at the top of the Readme. 
+
+   Link to the demo video: 
 
 
 ## Table of Contents

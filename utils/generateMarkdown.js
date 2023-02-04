@@ -82,7 +82,7 @@ ${data.usage}
 ${data.contributing}
 
 ## Tests
-${data.tests}
+${data.test}
 
 ## License
 ${renderLicenseSection(data.license)}
