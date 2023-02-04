@@ -1,8 +1,8 @@
-# A Little bit of love [![License](https://img.shields.io/badge/License%20-MIT-orange) [![License](https://opensource.org/licenses/MIT)
+# the best apple pie [![License](https://img.shields.io/badge/License%20-MIT-orange) [![License](https://opensource.org/licenses/MIT)
 }
 
 ## Description
-Bringing resources to educate poor people
+fresh apples, sugar, cinamon powder....
 
 ## Table of Contents
   - [Description](#Description)
@@ -14,16 +14,16 @@ Bringing resources to educate poor people
   - [Questions](#Questions)
 
 ## Installation
-with lots of patience 
+place sliced apples on the crust and bake it for 30 mins
 
 ## Usage
-dfsdf
+when still hot cut a piece of the pie and put a scoop of icecream
   
 ## Contributing
-dsjkfsld
+contributes to your soul and happiness
 
 ## Tests
-dsfsd
+be careful can be very addictive!
 
 ## License
 My Readme generator is covered under: [![License](https://img.shields.io/badge/License%20-MIT-orange) function renderLicenseLink(license) {
